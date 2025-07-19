@@ -1,0 +1,20 @@
+import javax.swing.JOptionPane;
+
+public class dialogbox 
+{
+    public static void main(String[] args) 
+    {
+        JOptionPane message=new JOptionPane();
+        // message.showMessageDialog(null,"Coomplete all the details to submit","new one", JOptionPane.PLAIN_MESSAGE);
+        // message.showMessageDialog(null,"Coomplete all the details to submit","new one", JOptionPane.INFORMATION_MESSAGE);
+        // message.showMessageDialog(null,"Coomplete all the details to submit","new one", JOptionPane.QUESTION_MESSAGE);
+        // message.showMessageDialog(null,"Coomplete all the details to submit","new one", JOptionPane.WARNING_MESSAGE);
+        // message.showMessageDialog(null,"Coomplete all the details to submit","new one", JOptionPane.ERROR_MESSAGE);
+        // int c=message.showConfirmDialog(null,"bro how are you","alert",
+        // message.YES_NO_CANCEL_OPTION,2);
+        // System.out.print(c);
+        /*String name=message.showInputDialog("pleae enter your name");*/
+        String arr[]={"you are mass","no your are not good","poop","Nope"};
+        message.showOptionDialog(null, "yeah!! how my look", "mass", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE, null, arr,0);
+    }    
+}
