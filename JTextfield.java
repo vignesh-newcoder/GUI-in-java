@@ -75,7 +75,7 @@ public class JTextfield extends JFrame implements ActionListener
             else if(!S.contains(name))
             {
                 S.add(name);
-                System.out.println("Welcome  "+name);
+                JOptionPane.showMessageDialog(this,"Thankyou for Registration","alert",JOptionPane.INFORMATION_MESSAGE);
             }
             else
             {
